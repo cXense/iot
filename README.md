@@ -3,6 +3,6 @@
 #### The two examples
 
 * [The RGB lamp](lamp)
-* The Truck: (in the "truck" directory)
+* [The Truck](truck)
 
 Both are made for RaspBerry Pi, any model.

@@ -23,12 +23,20 @@ The LED intensity is controlled using software PWM (pulse width modulation). Thi
 The main code is written in JavaScript and run in the nodejs environment.
 
 To get Node.js (the runtime for JavaScript programs) onto the Raspberry, just run these two commands:
+~~~~
+wget http://node-arm.herokuapp.com/node_latest_armhf.deb
+sudo dpkg -i node_latest_armhf.deb
+~~~~
 
-1. wget http://node-arm.herokuapp.com/node_latest_armhf.deb
-2. sudo dpkg -i node_latest_armhf.deb
+There is one dependency, and that is for the "request" module. That can be installed with this command:
+~~~~
+npm install request
+~~~~
 
 You can then run the program like this
-- node rgbcube.js
+~~~~
+node rgbcube.js
+~~~~
 
 
 #### Running at startup
