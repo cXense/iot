@@ -22,7 +22,7 @@ var stopping = false;
 
 // TODOs
 var siteId = 'xxxxxxxxxxxx'; // TODO: Add your site ID here
-var location = 'http://www.a.com/truck.html"; // TODO: Set any valid URL here (does not need to exist anywhere)
+var location = 'http://www.a.com/truck.html'; // TODO: Set any valid URL here (does not need to exist anywhere)
 
 
 // Helper functions to send a Cxense Insight event
